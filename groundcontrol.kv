@@ -283,8 +283,9 @@
                 text: 'Test Motors/Encoders'
                 disabled: True
             Button:
-                text: 'Test Motors'
-                disabled: True
+                text: "Self Assemble"
+                disabled: False
+                on_release: root.selfAssemble()
             Button:
                 text: 'Calibrate Chain Length'
                 disabled: False

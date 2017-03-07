@@ -14,3 +14,6 @@ class Diagnostics(FloatLayout, MakesmithInitFuncs):
     def calibrateChainLengths(self):
         self.data.gcode_queue.put("B02 ")
     
+    def selfAssemble(self):
+        print "begin assembly"
+    
